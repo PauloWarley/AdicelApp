@@ -1,0 +1,47 @@
+
+.main{
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+}
+.main .texto {
+    z-index: 1;
+
+    position: absolute;
+    width: 100%;
+
+    font-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+
+    color: rgb(0, 98, 255);
+}
+.main .circulo1 {
+    position: absolute;
+}
+.main .circulo2 {
+    position: absolute;
+    
+}
+.main .circulo2 svg{
+
+    /* transform: rotate(160deg); */
+    transform-origin: center 150px;
+}
+.main .circulo3 {
+    position: absolute;
+    
+}
+.circulo3 svg{
+
+    transform: rotate(180deg);
+    transform-origin: center 150px;
+}
+
+.graficos {
+    display: flex;
+    flex-direction: row;
+}

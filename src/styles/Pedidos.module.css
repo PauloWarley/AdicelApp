@@ -1,0 +1,110 @@
+.search {
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+
+    margin: 20px;
+    
+
+ 
+}
+.search input{
+
+    width: 25vw;
+    height: 30px;
+    
+
+    border-radius: 8px;
+
+}
+
+.search button{
+
+    width: 5vw;
+    height: 38px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.filters {
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+
+    margin: 20px;
+    
+
+}
+
+.filters label {
+
+    margin-right: 10px;
+
+}
+
+.filters div {
+
+    margin-right: 15px;
+
+}
+
+
+.orders {
+
+    align-items: left;
+    display: flex;
+    
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.orders table {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(85, 85, 85, 0.4);
+    
+}
+
+.orders th {
+    
+    background-color: rgba(68, 68, 68, 0.4);
+    /* border: 1px solid #4DA5FA; */
+    white-space: nowrap;
+    padding: 0 10px;
+
+}
+
+.orders td {
+
+   
+    background-color: rgba(51, 51, 51, 0.4);
+    border-bottom: 4px solid #222;
+    cursor: pointer;
+    
+
+}
+
+
+.orders td:nth-of-type(4) {
+
+    white-space: nowrap;
+    padding: 0 10px;
+
+}
+.orders td:nth-of-type(5) {
+    padding: 0 10px;
+    text-align: justify;
+
+
+}
+.orders td:nth-of-type(8) {
+    padding: 0 10px;
+  
+}

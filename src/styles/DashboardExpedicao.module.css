@@ -1,0 +1,233 @@
+.main{
+    /* BG */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #333333;
+}
+.container{
+    /* BG */
+
+    display: flex;
+    flex-direction: column;
+
+    width: 95vw;
+    height: 95vh;
+
+    background: linear-gradient(116.41deg, rgba(0, 0, 0, 0.81) 3.35%, rgba(49, 84, 208, 0.11) 73.26%);
+    border-radius: calc(40*0.1vh);
+}
+
+.title{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    width: 100%;
+    height: 10vh;
+
+    padding-left: 2vw;
+    padding-top: 1vh;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(36*0.1vh);
+    line-height: calc(41*0.1vh);
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.title div:first-child{
+    width: 40%;
+
+}
+.title div:last-child{
+    font-size: calc(36*0.1vh);
+    font-weight: 400;
+    width: 60%;
+}
+
+.ecommerce{
+    /* situacoes */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 45vw;
+    height: 10vh;
+
+    /* padding-left: 4vw;
+    padding-top: 4vh; */
+
+    
+
+}
+
+.ecommerce_title{
+
+    display: flex;
+
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+
+    /* margin: 2%; */
+
+    justify-content: center;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(36*0.1vh);
+    line-height: calc(41*0.1vh);
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.ecommerce_group{
+    /* BG */
+
+    background: rgba(85, 85, 85, 0.5);
+    border-radius: calc(10*0.1vh);
+
+    padding: 4%;
+
+    margin: 2%;
+
+    width: max-content;
+    height: max-content;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+.ecommerce_icon{
+
+    display: flex;
+    width: 10vh;
+    /* margin-top: 5%; */
+    align-items: center;
+}
+
+.ecommerce_dado_title {
+    /* Total de Envios */
+
+    display: flex;
+    
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(20*0.1vh);
+    line-height: calc(23*0.1vh);
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.ecommerce_dado_text{
+
+    display: flex;
+    width: 100%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(80*0.1vh);
+    line-height: calc(92*0.1vh);
+    text-align: center;
+
+    color: #FFFFFF;
+
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+
+
+.ecommerce_dado_porcentagem {
+    /* +5,3% */
+
+    display: flex;
+
+    width: 100%;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(24*0.1vh);
+    line-height: calc(28*0.1vh);
+    text-align: center;
+
+    color: #00DE4C;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.horarios_corte{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+}
+
+.horarios_corte_titulo{
+
+    display: flex;
+    padding: 1%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(36*0.1vh);
+    line-height: calc(41*0.1vh);
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.tabela_horarios_corte{
+
+    width: 30vw;
+    height: 100%;
+    padding: 5%;
+
+    background: rgba(51, 51, 51, 0.5);
+    border-radius:calc( 5*0.1vh);
+}
+
+.interno {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.bling {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+

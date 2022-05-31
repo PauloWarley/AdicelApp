@@ -1,0 +1,226 @@
+.layout {
+
+    height: 100vh;
+    display: flex;
+   
+
+    padding: 10px;
+    margin: 2px;
+    border-radius: 2px;
+    color: #070055;
+    /* font-family: "Lucida Console", Courier, monospace; */
+    
+
+}
+
+.cabecalho {
+
+    display: flex;
+    justify-content: center;
+    /* padding: 1px 200px; */
+    
+
+}
+
+.cabecalho a {
+
+    display: flex;
+    justify-content: space-between;
+    /*padding:5px 8px;*/
+    /* border-radius: 5px; */
+    color : #4da5fa;
+
+}
+
+.cabecalho h1 {
+
+    /* padding: 10px;
+    margin: 2px;
+    border-radius: 2px; */
+    cursor: pointer;
+    color: #070055;
+    /* font-family: "Lucida Console", Courier, monospace; */
+    
+}
+
+.cabecalho div {
+
+    padding: 10px;
+    margin: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #9900ff;
+    /* font-family: "Lucida Console", Courier, monospace; */
+
+}
+
+.body{
+
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.leftSideMenu {
+
+    height: 100%; /* 100% Full-height */
+    width: 0px;
+    
+    position: fixed; /* Stay in place */
+    z-index: 1;  /*Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.4); /* Black*/
+    padding-top: 20px; /* Place content 60px from the top */
+    text-align: justify;
+    text-justify: auto;
+    overflow-x: hidden;
+
+    border: 1px dotted black;
+    overflow-y: scroll; /* Add the ability to scroll */
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.leftSideMenu::-webkit-scrollbar {
+    display: none;
+}
+
+
+.leftSideMenu label {
+
+    font-size: 11px;
+    margin: 5px;
+
+
+}
+
+.leftSideMenu h1{
+
+    padding: 2px;
+    margin: 30px;
+    border-radius: 10px; 
+    cursor: pointer;
+    color: #070055;
+    /* font-family: "Lucida Console", Courier, monospace; */
+    background-color: #fff;
+    text-align: center;
+
+}
+.leftSideMenu h5{
+
+    /* padding: 10px; */
+    padding-bottom: 10px;
+    margin: 10px;
+    border-radius: 10px; 
+    cursor: pointer;
+    color: white;
+    /* font-family: "Lucida Console", Courier, monospace; */
+    /* background-color: #fff; */
+    text-align: center;
+    font-size: 11px;
+
+}
+
+.upSideMenu {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%; /* 100% Full-height */
+    height: 30px;
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-y: hidden; /* Disable horizontal scroll */
+    text-align: justify;
+    text-justify: auto;
+
+}
+
+
+
+
+.input{
+
+
+    margin: 10px;
+    border-radius: 10px;
+    border: rgb(52, 122, 226) solid 2px;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+
+
+}
+
+
+
+.content {
+
+    padding-top: 30px;
+    height: 100vh;
+
+}
+
+
+.max{
+    text-align: justify;
+    text-justify: auto;
+
+    justify-content: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+
+    cursor: pointer;
+    
+
+}
+
+.max > li{
+    height: 20px;
+    width: 150px;
+
+    list-style-type: none; /* Remove bullets */
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    /* font-family: Nunito,sans-serif; */
+    font-size: 14px;
+    
+
+    align-items: center;
+    justify-content: center;
+
+
+
+    float:left;
+    overflow:hidden;    
+    -moz-transition:all 0.2s ease-out;
+    -webkit-transition:all 0.2s ease-out;
+    -o-transition:all 0.2s ease-out;
+    transition:all 0.2s ease-out;
+    -moz-transition-delay:0.15s;
+    -webkit-transition-delay:0.15s;
+    -o-transition-delay:0.15s;
+    transition-delay:0.15s;
+}
+
+.max > li:hover{
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+

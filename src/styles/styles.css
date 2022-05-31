@@ -1,0 +1,18 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* background-color: #2b2f31; */
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+  font-family: 'Mitr', sans-serif;
+
+  /* BG */
+
+  background: linear-gradient(116.41deg, rgba(0, 0, 0, 0.81) 3.35%, rgba(49, 84, 208, 0.733) 73.26%);
+  width: 100%;
+  height: 100%;
+
+}
+
